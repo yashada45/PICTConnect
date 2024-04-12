@@ -5,34 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PICT Connect</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://upnpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/97577b9435.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/jpg" href="faviconfinal.png">
 </head>
 <body>
     <header>
             <div class="nav container">
             <a href="#" class="logo">PICT<span>Connect</span></a>
-            <a href="#" class="login">Login</a>
-    </div>
+            <a href="/pages/login.html" class="login">Login</a>
+            </div>
     </header>
-    <section class="home" id="home">
+
+    <section class="home" id="home" >
+        
         <div class = "home-text container">
             <h2 class = "home-title">PICTConnect</h2>
             <span class="home-subtitle">The Ultimate Guide To PICT Life</span>
         </div>
-    
     </section>
 
     <div class = "post-filter container">
-        <span class="filter-item active-filter" data-filter='hostel'>Hostels</span>
-        <span class="filter-item " data-filter='food'>Food Joints</span>
-        <span class="filter-item " data-filter='clubs'>Clubs</span>
-        <span class="filter-item " data-filter='expense'>Exense Tracker</span>
+        <a href="/pages/hostels.html" class="homelinks">
+        <span class="filter-item " data-filter='hostel'>&nbsp;Hostels&nbsp;</span> </a>
+        <a href="/pages/foodjoints.html" class="homelinks">
+        <span class="filter-item " data-filter='food'>&nbsp;Food Joints&nbsp;</span></a>
+        <a href="/pages/clubs.html" class="homelinks">
+        <span class="filter-item " data-filter='clubs'>&nbsp;Clubs&nbsp;</span></a>
+        <a href="/pages/expensetracker.html" class="homelinks">
+        <span class="filter-item " data-filter='expense'>&nbsp;Expense Tracker&nbsp;</span></a>
     </div>
+    
     <section class="post container">
-        <!--post box 1-->
         <div class="post-box">
-            <img src="C:\Users\Yashoda\Downloads\clgphoto.jpg" alt="" class="post-img">
+            <img src="/css/clgphoto.jpg" alt="college photo" class="post-img">
             
         </div>
     </section>
