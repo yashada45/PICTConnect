@@ -11,7 +11,7 @@
 
 :root {
     --container-color: #1a1e21;
-    --second-color: #fd8f44;
+    --second-color: rgb(253, 143, 68);
     --text-color: #172317;
     --bg-color: #fff;
 }
@@ -60,7 +60,7 @@ header {
 .logo {
     font-size: 1.5rem;
     font-weight: 600;
-    color: #ffe3d0;
+    color: #ffd1b2;
 }
 
 .logo span {
@@ -81,8 +81,7 @@ header {
     transition: 0.3s;
 }
 
-.home{   
-
+.home{
     width: 100%;
     min-height: 440px;
     background: var(--container-color);
@@ -114,7 +113,7 @@ header {
 
     font-size: 0.9rem;
     font-weight: 500;
-    cursor: pointer;;
+    cursor: pointer;
 }
 .active-filter{
     background: var(--second-color);
